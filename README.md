@@ -5,17 +5,17 @@ This website can be
 
 ## Getting started
 
-  yarn install
+    yarn install
 
 ## Run the dev server
 
-  npm run dev
+    npm run dev
 
 ## Run RemoteDev Server
 
-  npm install -g remotedev-server
-  
-  remotedev --h=0.0.0.0 --port=8081
+    npm install -g remotedev-server
+
+    remotedev --h=0.0.0.0 --port=8081
 
 ```
 const store = createStore(todoApp, devToolsEnhancer({
