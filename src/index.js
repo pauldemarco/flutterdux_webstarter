@@ -13,5 +13,7 @@ const store = createStore(todoApp, devToolsEnhancer({
   port: 8081
 }))
 
+// Add store and action dispatcher to global variables,
+// so we can access from FlutterDux
 window.store = store;
 window.addTodo = addTodo;
